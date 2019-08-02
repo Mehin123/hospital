@@ -1,0 +1,197 @@
+
+html{
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+#header{
+    background-color: #fafafa;
+  
+   
+   .search{
+       background-color: white;
+
+    
+   }
+    button{
+        background-color: #F56620;
+        color:white;
+        font-weight: 700;
+        }
+        .phone{
+            
+           
+            i{
+                color:green;
+                font-size:2rem;
+            }
+            span{
+                color:green;
+                font-size:2rem;
+                font-weight:700;
+                
+            }
+        }
+        #navbar{
+            background-color: #F56620;
+            nav{
+              
+              
+                font-weight:500;
+                font-size:1.2rem;
+              
+               
+                
+                    li:hover{
+                        border-bottom:5px solid green;
+                        transition:0.5s;
+                    }
+                  
+                
+            }
+          
+        }
+
+}
+
+#carousel{
+    img{
+        height:550px;
+    }
+}
+#borders{
+  
+    i{
+        padding-bottom:10px;
+        padding-top:10px;
+       
+    }
+    .col-lg-3   {
+        background-color: #037C5D;
+       
+        margin-right:20px;
+        cursor:pointer;
+       
+    }
+    .col-lg-2   {
+        background-color: #F56620;
+        margin-right:15px;
+        cursor:pointer;
+      
+
+       
+       
+    }
+}
+#video{
+    i{
+        color:rgb(0, 140, 255);
+    }
+}
+#world{
+    background-image: url("../images/world.jpg");
+    height:160px;
+    position:relative;
+    
+    .diffsearch{
+        border-radius: 33px;
+        width:420px;
+        height:40px;
+        outline:none;
+        color:white;
+      
+        background-image: url("../images/world.jpg");
+    }
+    .overlay{
+        position:absolute;
+        top:0;
+        left:0;
+        bottom:0;
+        height:100%;
+        width:100%;
+        background-color:rgba(29, 27, 27, 0.2);
+    }
+    .search { 
+        position: relative;
+     }
+.search input { 
+    text-indent: 30px;
+}
+.search .fa-search { 
+  position: absolute;
+  top: 30px;
+  left: 880px;
+  font-size: 15px;
+}
+}
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+#cards{
+    button{
+        background-color: #037C5D;
+        font-size:1.5rem;
+        border-radius:45px;
+        padding-left:70px;
+        padding-right:70px;
+    }
+        
+    }
+#social{
+    color:white;
+   
+   
+   
+  .border{
+      border-radius:15px;
+      button{
+          border-radius:25px;
+          margin-bottom:6px;
+          i{
+            font-size:1.7rem;
+            
+        }
+      }
+   
+      margin-right:5px;
+      width:220px;
+  }
+    i{
+        padding:10px;
+    }
+    .face{
+        background-color: #4F74C1;
+    }
+    .twit{
+        background-color: 	#6DBFFE;
+    }
+    .insta{
+        background-color: #FD8300;
+    }
+    .link{
+        background-color: #5677C7;
+    }
+    .you{
+        background-color: red;
+    }
+    .mail{
+        background-color: 	#28E483;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    #social{
+        .border{
+            width:100%;
+            margin-bottom:5px;
+        }
+        
+    }
+   
+    }
+  
